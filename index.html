@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Abhishek's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Let's Connect!</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="left">
+        <img
+          src="./images/abhishek.jpg"
+          alt="Abhishek's Photo"
+          width="400px"
+          height="400px"
+        />
+      </div>
+      <div class="right">
+        <h1>I'm<br />Abhishek Shinde<br />Web Designer</h1>
+      </div>
+    </section>
+    <section id="about">
+      <div class="about-content">
+        <div class="about-image">
+          <img src="./images/ABHI1.jpg" alt="Abhishek" />
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            Hello there! I'm Abhishek, a passionate IT student currently
+            pursuing B.TECH at PCCOE. With a strong foundation in web
+            development and data structures, I'm constantly exploring the
+            exciting world of technology. My journey in IT began with a
+            fascination for how the web works and the endless possibilities it
+            offers. Over the years, I've honed my skills in various programming
+            languages, including HTML, CSS, JavaScript, and Python. I'm also
+            well-versed in frameworks like React, and my understanding of data
+            structures empowers me to build efficient and robust applications.
+          </p>
+          <a
+            href="./images/pdf/Final Resume.pdf"
+            download
+            class="download-button"
+            >Download Resume</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="skillsAndProjects">
+      <div class="skills" id="skills">
+        <h1 class="cardHeading">Skills</h1>
+        <div class="skill-boxes">
+          <div class="skill-box">
+            <img title="HTML" src="./images/html-5-svgrepo-com.svg" />
+            <h3>HTML</h3>
+          </div>
+          <div class="skill-box">
+            <img title="CSS" src="./images/css-3-svgrepo-com.svg" />
+            <h3>CSS</h3>
+          </div>
+          <div class="skill-box">
+            <img title="Javascript" src="./images/javascript-svgrepo-com.svg" />
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill-box">
+            <img title="Node.JS" src="./images/nodejs-svgrepo-com.svg" />
+            <h3>Node.JS</h3>
+          </div>
+          <div class="skill-box">
+            <img title="React" src="./images/react-svgrepo-com.svg" />
+            <h3>React</h3>
+          </div>
+          <div class="skill-box">
+            <img title="MongoDB" src="./images/mongodb-svgrepo-com.svg" />
+            <h3>MongoDB</h3>
+          </div>
+          <div class="skill-box">
+            <img title="Github" src="./images/github-svgrepo-com.svg" />
+            <h3>Github</h3>
+          </div>
+          <div class="skill-box">
+            <img title="Java" src="./images/java-svgrepo-com.svg" />
+            <h3>Java</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3 class="project-title">Personal Portfolio Website</h3>
+        <div class="project-description">
+          <p>
+            Developed a responsive personal portfolio website from scratch using
+            HTML, CSS, and JavaScript. Utilized JavaScript to create interactive
+            features, such as dynamic animations and smooth scrolling, enhancing
+            user engagement.
+          </p>
+        </div>
+      </div>
+      <div class="project">
+        <h3 class="project-title">Task Management App</h3>
+        <div class="project-description">
+          <p>
+            Developed a web-based Task Management Application using a full-stack
+            technology stack, including React.js for the frontend and Node.js
+            with Express.js for the backend. Created an intuitive and
+            user-friendly interface allowing users to easily add, edit, and
+            delete tasks, enhancing productivity and organization. Implemented
+            user authentication and authorization systems to ensure secure
+            access and data privacy for multiple users.
+          </p>
+        </div>
+      </div>
+      <div class="project">
+        <h3 class="project-title">GadgetHub</h3>
+        <div class="project-description">
+          <p>
+            “GadgetHub,” a dynamic web application built from the ground up
+            using HTML, CSS, and JavaScript. Crafted a distinctive icon for
+            GadgetHub, using Canva, to represent the brand. It is an engaging
+            platform for showcasing a diverse range of gadgets, including
+            detailed product information, images, and user reviews.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Let's Connect!</h2>
+      <div class="contact-card">
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <label for="name">Your Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Enter Full Name.."
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                required
+                placeholder="Write Something!"
+              ></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
